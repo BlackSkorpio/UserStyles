@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name			Centrerad Happypancake utan reklam
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.1.0
+@description	För oss som avskyr reklam, skicka gärna ett mail och tacka:-)
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-happypancake-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document domain("happypancake.com"){.ad,.ads,iframe,#tp_frame1,#topnavbar,.spons-link,.adposition,.ads-topPane,#ads-topPane,.ads-rightPane,#ads-rightPane,a[href*="adclick"],iframe.topAdContent,img[src*="limited_"],.wrapper>div:nth-child(2),*[width*="468"][height*="60"]{display:none!important}html{background-color:#dbeffa!important}body{margin-right:auto!important;margin-left:auto!important;border-left:1px solid #fff!important;border-right:1px solid #fff!important}.columns,.colspan{position:relative!important;left:-7px;top:-7px;background:white!important;padding:2px!important;border-left:1px solid #fff!important;border-right:1px solid #fff!important}#header{background:white!important;padding:2px!important;border-left:1px solid #fff!important;border-right:1px solid #fff!important;display:none}#submenu{background:white!important;position:relative!important;left:-1px!important}#mirrors{background:white!important}}

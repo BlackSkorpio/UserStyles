@@ -1,3 +1,4 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/companionStyles/$1.$2 */
 /*! ==UserStyle==
 @name           IMDb.com - Nightmode Companion
 @namespace		github.com/BlackSkorpio/UserStyles
@@ -6,7 +7,7 @@
 @author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
 @homepageURL	https://github.com/BlackSkorpio/UserStyles/
 @supportURL		https://github.com/BlackSkorpio/UserStyles/issues
-@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/companion-imdb-com-nightmode.user.css
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/companionStyles/companion-imdb-com-nightmode.user.css
 @license		MIT
 @preprocessor	default
 ==/UserStyle== */

@@ -1,3 +1,4 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/utilityStyles/$1.$2 */
 /*! ==UserStyle==
 @name			Dim images
 @namespace		github.com/BlackSkorpio/UserStyles
@@ -6,7 +7,7 @@
 @author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
 @homepageURL	https://varoystrand.se
 @supportURL		https://github.com/BlackSkorpio/UserStyles/issues
-@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/images-dim.user.css
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/utilityStyles/images-dim.user.css
 @license		MIT
 @preprocessor	default
 ==/UserStyle== */

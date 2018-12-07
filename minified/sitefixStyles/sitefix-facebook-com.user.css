@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name           FB New Notification
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Fixing the notification menu
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-facebook-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document url-prefix("https://www.facebookcorewwwi.onion/"),domain("www.facebook.com"),domain("m.facebook.com"),domain("www.messenger.com"),domain("apps.facebook.com"),domain("developers.facebook.com"),domain("business.facebook.com"){.__tw li.jewelItemNew,.jewelItemNew ._33e{background-color:rgba(213,192,192,0.7)!important}.__tw li.jewelItemNew:hover,.jewelItemNew ._33e:hover{background-color:transparent!important}}

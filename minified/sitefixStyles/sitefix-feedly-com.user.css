@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name           Feedly fixes
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Making article headers sticky
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-feedly-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document domain("feedly.com"){.entryHeader,.frameActionsTop{position:sticky;background-color:#444242!important;z-index:6}.frameActionsTop{top:56px}.entryHeader{top:89px}#feedlyTabsHolder .header.selected,#feedlyTabsHolder .header.selected:hover,.feedIndex.target.selected,.feedIndex.target.selected:hover{background-color:#444242!important}div.content,span.pinContainer{display:block;width:100%!important;margin:0 auto!important}div.content video,span.pinContainer img,span.pinContainer .pinable{display:block;max-width:none!important;margin:0 auto!important}span.pinContainer img{max-width:647px!important;width:647px!important}}

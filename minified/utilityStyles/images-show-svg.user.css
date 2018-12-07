@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name			Show SVG
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Outlines all SVG files on the page
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://varoystrand.se
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/utilityStyles/images-how-svg.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document url-prefix("http://"),url-prefix("https://"),url-prefix("file:///"){svg{max-height:calc(100vh - 7px);max-width:calc(100vw - 7px);background:gray}svg,a[href$=".svg"],img[src$=".svg"],img[src*="data:image/svg;base64"]{border:medium dotted green!important}a[href$=".svg"]:hover,a[href$=".svg"]:focus,img[src$=".svg"]:hover,a[href$=".svg"]:active,img[src$=".svg"]:focus,img[src$=".svg"]:active,img[src*="data:image/svg;base64"]:hover,img[src*="data:image/svg;base64"]:focus,img[src*="data:image/svg;base64"]:active{border:thin solid red!important}a[href$=".svg"]:visited,img[src$=".svg"]:visited,img[src*="data:image/svg;base64"]:visited{color:#737372!important;border:thin solid #cbbb71!important}}

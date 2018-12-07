@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name			Dark Mode for DeepL.com
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		0.1.0
+@description	Dark mode for deepl.com
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-deepl-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document domain("deepl.com"){:root{--color-accent:#128fe7;--color-accent-light:#219ae9;--color-accent-alternate:#89ea50;--color-dark:#505050;--color-darker:#3c3c3c;--color-darkest:#1e1e1e;--color-light:#d2d2d2;--color-lighter:#f0f0f0;--color-lightest:#fafafa;--color-medium:#787878}html{-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}body{background:var(--color-dark)!important;color:var(--color-light)!important}a{color:var(--color-lighter)!important}.dl_translator_page_container{min-height:calc(100vh - 128px)}.dl_header,.dl_footer{background:var(--color-darker)!important;color:var(--color-light)!important}.dl_dropdown_dialog{background:var(--color-darker)!important;color:var(--color-light)!important}.dl_dropdown_dialog.dl_dropdown_dialog--menu li:hover{background:var(--color-darkest)!important}.lmt__language_select label strong,div.lmt__language_container,.lmt__language_select .lmt__language_select__opener path{color:var(--color-light)!important;stroke:var(--color-light)!important}.lmt__language_select.lmt__language_select--open label{background:var(--color-darkest)!important}.lmt__language_select.lmt__language_select--open ul{background:var(--color-darker)!important;color:var(--color-light)!important}.lmt__language_select li:hover{background:var(--color-darkest)!important}textarea{color:var(--color-lighter)!important}#lmt_pro_ad_article,#lmt_quotes_article{display:none!important}#lmt_quotes_article ~ .dl_footer,#lmt_quotes_article ~ .dl_footer>div{background:var(--color-darker)!important;background-color:var(--color-darker)!important;color:var(--color-light)!important}#dl_cookie_footer,#dl_cookie_footer>div,.dl_footer .dl_footer__social{background:var(--color-darker)!important;color:var(--color-light)!important}#dl_cookie_footer>div>a:hover{border:2px solid var(--color-lighter)!important}}

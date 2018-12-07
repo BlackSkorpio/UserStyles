@@ -1,3 +1,4 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/sitefixStyles/$1.$2 */
 /*! ==UserStyle==
 @name           DNs Pay
 @namespace		github.com/BlackSkorpio/UserStyles
@@ -6,7 +7,7 @@
 @author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
 @homepageURL	https://github.com/BlackSkorpio/UserStyles/
 @supportURL		https://github.com/BlackSkorpio/UserStyles/issues
-@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/sitefix-dn-se.user.css
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-dn-se.user.css
 @license		MIT
 @preprocessor	default
 ==/UserStyle== */

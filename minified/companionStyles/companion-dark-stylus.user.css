@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name			Dark Stylus Companion
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Companion style to the Dark Stylus
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://varoystrand.se
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/companionStyles/companion-dark-stylus.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document regexp("chrome-extension://.*"),regexp("moz-extension://.*"){#manage-settings>.settings-column .select-resizer{width:calc(100% - 2em)!important}#backup-buttons .dropdown-content{background-color:#161616!important;color:#ccc!important;border:1px solid #000!important}#backup-buttons .dropdown-content a:hover{background-color:inherit!important;color:#666!important}}
