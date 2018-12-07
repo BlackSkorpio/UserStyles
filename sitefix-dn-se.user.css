@@ -1,0 +1,69 @@
+/*! ==UserStyle==
+@name           DNs Pay
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/sitefix-dn-se.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("dn.se") {
+.adblock,
+.site-footer,
+#rich-media-ads,
+.outsider-ads,
+.footer.js-footer,
+[data-script-tag-id="serviceplusPaywall3"],
+.article-disclaimer__section,
+.article-toolbar.js-social-toolbar,
+.article-toolbar.article-toolbar--tools.js-article-toolbar,
+.article .paywall{display:none !important; }
+.article__body--mask .article__premium-content{display: block !important;}
+.article__body--mask .article__lead{max-height: none !important;}
+.article__body--mask .article__lead::after{box-shadow: none !important;}
+/*From https://userstyles.org/styles/143841/dn-se-read-articles-for-free */
+.article__lead {
+	position: inherit;
+}
+.paywall {
+	display: none;
+}
+.article__premium-content {
+	display: block;
+}
+/* LAYOUT CHANGES */
+.page {
+	display: flex !important;
+	margin: 0 auto !important;
+}
+.article__header-video,
+.lg-unit-offset--300.unit-offset--right,
+.image-box--article .image-box__container {
+	margin: 0 auto !important;
+	padding-right: 0 !important;
+}
+.article-teaser--tall .image-box__caption,
+.article .image-box__caption,
+.article__body, .article__head,
+.article__meta {
+	margin: 0 auto !important;
+}
+.article__header-video,
+.js-video-box.video-box,
+.image-box--article .image-box__container,
+.article-teaser--tall .image-box__caption,
+.article .image-box__caption,
+.article__meta,
+.article__lead,
+.article .byline,
+.article__body-content,
+.article__widgets {
+	max-width: 750px !important;
+	width: 100% !important;
+}
+.image-box--article .image-box__container{max-width:none !important;}
+}

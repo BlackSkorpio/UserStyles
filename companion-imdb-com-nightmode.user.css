@@ -1,0 +1,50 @@
+/*! ==UserStyle==
+@name           IMDb.com - Nightmode Companion
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	IMDb.com - Nightmode Companion
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/companion-imdb-com-nightmode.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("imdb.com") {
+/*** Side menu ***********************/
+/** Twitter **/
+#sidebar [name='slot_right-12'],
+#sidebar [name='slot_right-12'] + .aux-content-widget-2,
+/** Facebook **/
+#sidebar [name='slot_right-14'],
+#sidebar [name='slot_right-14'] + .aux-content-widget-2,
+/** Around The Web **/
+#sidebar [name='slot_right-29'],
+#sidebar [name='slot_right-29'] + .aux-content-widget-2,
+
+/*** center ************************/
+/** Pro Link **/
+.quicklink[href*='pro.imdb.com'],
+.quicklink[href*='pro.imdb.com'] + .ghost,
+/** Born Today **/
+[name='slot_center-8'],
+[name='slot_center-8'] + .article,
+/** hollywood power couples **/
+[name='slot_center-10'],
+[name='slot_center-10'] + .article,
+/** Stream Action and Adventure Titles With Prime Video **/
+[name='slot_center-12'],
+[name='slot_center-12'] + .article,
+/** Stream Popular with Prime Video **/
+#main_bottom.main [name='slot_center-21'],
+#main_bottom.main [name='slot_center-21'] + .article,
+
+/*** The rest ************************/
+#nb20 #nb_extra,
+#navProMenu,
+#navProMenu + .spacer,
+.native-ad-link,
+#footer
+{display:none !important}
+}

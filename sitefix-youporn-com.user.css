@@ -1,0 +1,35 @@
+/*! ==UserStyle==
+@name           YouPorn
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Fixing some annoying things and hiding ads
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/sitefix-youporn-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("youporn.com") {
+.four-column[data-espnode='sidebar'] {
+	width: 240px;
+}
+.twelve-column {
+	width: 1050px;
+}
+/*-----------------------------------*/
+ads,
+footer,
+.ad-remove,
+.cL4JUOYp2NT,
+aside.xXtAowzaqj,
+.cL4JUOYp2NT:first-child,
+.qemEjPuw,
+.mL2CeqpUHmh,
+[data-track*='ad-iframe-'],
+.row.js_subscriptionsMsgRow {
+	display: none !important;
+}
+
+}

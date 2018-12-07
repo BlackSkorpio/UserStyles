@@ -1,0 +1,31 @@
+/*! ==UserStyle==
+@name           DIY Photography
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Focus is the content and not the distractions
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/sitefix-diyphotography-net.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("diyphotography.net") {
+/*Header .top*/
+.site-container .top/* .top-right.widget-area*/,
+.site-container .top + .clearfix,
+.entry-header .social-sharing,
+.entry-content p:last-of-type,
+#social_footer,
+.entry-footer,
+.after-entry-2.widget-area,
+#disqus_thread,
+.footer-widgets,
+.site-footer,
+/*Aside*/
+aside.sidebar section#text-5.widget.widget_text
+{display:none}
+
+.adjacent-entry-pagination.pagination{margin-bottom:2em!important}
+}

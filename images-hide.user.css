@@ -1,0 +1,20 @@
+/*! ==UserStyle==
+@name			Hide images
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Hides all images on the page
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/images-hide.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle==*/
+@-moz-document url-prefix("http://"), url-prefix("https://") {
+	img[src*="gif"],
+	img[src*="jpg"],
+	img[src*="png"],
+	[style*="background-image"] {
+		display: none !important;
+	}
+}

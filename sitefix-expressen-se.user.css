@@ -1,0 +1,60 @@
+/*! ==UserStyle==
+@name           Expressen [CLEAN]
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/sitefix-expressen-se.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("expressen.se") {
+/*** Center the whole wrapper ***/
+.site-wrapper {
+	left: auto !important;
+	padding: 0 !important;
+	margin-bottom: 2em !important;
+}
+
+/*** DONT move the top menu outside the viewport ***/
+.sticky-header .top-menu--closed {
+	transform: none !important;
+}
+
+.site-header,
+.breaking-news {
+	position: sticky;
+}
+.site-header {
+	top: 0;
+	z-index: 2;
+}
+.breaking-news {
+	top: 130px;
+	z-index: 1;
+}
+
+/*** Hide stuff ***/
+
+/* Empty stuff */
+div:empty,
+span:empty,
+template:empty {display: none !important;}
+
+/* ADS */
+.bam-ad-slot,
+.discount-ad,
+.outsider-ads,
+.teaser--native-ad,
+[href*='?utm_campaign'] {display: none !important;}
+
+/* Other stuff */
+footer,
+.teaser > picture.vignette--image,
+.site-body .site-body__bauta:first-child,
+[href^='http://lanapengar.expressen.se'],
+[href^='https://lanapengar.expressen.se'] {display: none !important}
+}

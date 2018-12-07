@@ -1,0 +1,55 @@
+/*! ==UserStyle==
+@name           Tradera
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		1.0.0
+@description	Fixing the visited links, making menus sticky and hiding stuff
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/sitefix-tradera-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("tradera.com") {
+.card-list a:visited:hover,
+.card-list a:visited:hover,
+.search-filters-section-categories .search-filter-child .search-filters-list-item:visited:hover,
+.search-filters-section-categories .search-filter-active .search-filters-list-item:visited:hover {
+	text-decoration: underline wavy line-through !important;
+}
+.card-list a:visited,
+.search-filters-section-categories .search-filter-child .search-filters-list-item:visited {
+	color: #6f88aa !important;
+}
+.search-filters-section-categories .search-filter-active .search-filters-list-item:visited {
+	color: #3e3030 !important;
+}
+.card-list a:visited {
+	font-weight: 700 !important;
+}
+.layout-base,
+.side-menu-animation-wrapper {
+	overflow: initial !important;
+}
+.bp[data-site-header-slim] {
+	position: sticky;
+	top: -1px;
+	z-index: 12;
+}
+
+.search-filters-animation-wrapper.search-filters-animation-wrapper-categories {
+	position: sticky;
+	top: 45px;
+	background-color: white;
+	z-index: 11;
+}
+/*.toolbar.show-tablet {
+	position: sticky;
+	top: 44px;
+	z-index: 9;
+}*/
+.bp.site-footer {
+	display: none;
+}
+}
