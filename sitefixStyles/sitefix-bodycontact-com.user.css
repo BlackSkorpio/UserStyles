@@ -1,0 +1,19 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/sitefixStyles/$1.$2 */
+/*! ==UserStyle==
+@name           BC Fixes
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    Fixes for BC
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-bodycontact-com.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("bodycontact.com") {
+	#page a:visited {
+		color: #7b828d !important;
+	}
+}
