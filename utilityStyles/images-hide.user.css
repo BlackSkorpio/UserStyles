@@ -11,6 +11,7 @@
 @license		MIT
 @preprocessor	default
 ==/UserStyle==*/
+
 @-moz-document url-prefix("http://"), url-prefix("https://") {
 	img[src*="gif"],
 	img[src*="jpg"],
