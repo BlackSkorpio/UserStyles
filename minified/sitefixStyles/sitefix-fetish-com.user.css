@@ -1,0 +1,13 @@
+/*! ==UserStyle==
+@name           fetish.com
+@namespace      github.com/openstyles/stylus
+@namespace		github.com/BlackSkorpio/UserStyles
+@version		0.1.0
+@description	Dark mode for deepl.com
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-fetish-com.user.css
+@license		MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document domain("fetish.com"){.modal-open{overflow:auto!important}.modal-open .modal.df-banner-popup{overflow-x:auto!important;overflow-y:auto!important;overflow:auto!important}.df-banner-popup,.gdpr-cookies-hint{display:none!important}}
