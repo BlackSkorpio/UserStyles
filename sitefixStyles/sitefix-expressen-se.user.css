@@ -31,6 +31,7 @@
 }
 .site-header {
 	top: 0;
+	padding-top: 42px;
 	z-index: 2;
 }
 .breaking-news {
@@ -50,10 +51,15 @@ template:empty {display: none !important;}
 .discount-ad,
 .outsider-ads,
 .teaser--native-ad,
+a[href*="/premium/"],
+a[href*="utm_campaign=kampanj"],
+[data-customer-reference*="ANNONS"],
 [href*='?utm_campaign'] {display: none !important;}
 
 /* Other stuff */
 footer,
+.premium-teaser,
+.site-header__wrapper,
 .teaser > picture.vignette--image,
 .site-body .site-body__bauta:first-child,
 [href^='http://lanapengar.expressen.se'],

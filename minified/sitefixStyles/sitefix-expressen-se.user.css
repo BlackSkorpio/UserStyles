@@ -4,9 +4,9 @@
 @version		1.0.0
 @description	A cleaned up site
 @author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
-@homepageURL	https://github.com/BlackSkorpio/UserStyles/
+@homepageURL	https://varoystrand.se
 @supportURL		https://github.com/BlackSkorpio/UserStyles/issues
 @updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-expressen-se.user.css
 @license		MIT
 @preprocessor	default
-==/UserStyle== */@-moz-document domain("expressen.se"){.site-wrapper{left:auto!important;padding:0!important;margin-bottom:2em!important}.sticky-header .top-menu--closed{transform:none!important}.site-header,.breaking-news{position:sticky}.site-header{top:0;z-index:2}.breaking-news{top:130px;z-index:1}div:empty,span:empty,template:empty{display:none!important}.bam-ad-slot,.discount-ad,.outsider-ads,.teaser--native-ad,[href*='?utm_campaign']{display:none!important}footer,.teaser>picture.vignette--image,.site-body .site-body__bauta:first-child,[href^='http://lanapengar.expressen.se'],[href^='https://lanapengar.expressen.se']{display:none!important}}
+==/UserStyle== */@-moz-document domain("expressen.se"){.site-wrapper{left:auto!important;padding:0!important;margin-bottom:2em!important}.sticky-header .top-menu--closed{transform:none!important}.site-header,.breaking-news{position:sticky}.site-header{top:0;padding-top:42px;z-index:2}.breaking-news{top:130px;z-index:1}div:empty,span:empty,template:empty{display:none!important}.bam-ad-slot,.discount-ad,.outsider-ads,.teaser--native-ad,a[href*="/premium/"],a[href*="utm_campaign=kampanj"],[data-customer-reference*="ANNONS"],[href*='?utm_campaign']{display:none!important}footer,.premium-teaser,.site-header__wrapper,.teaser>picture.vignette--image,.site-body .site-body__bauta:first-child,[href^='http://lanapengar.expressen.se'],[href^='https://lanapengar.expressen.se']{display:none!important}}
