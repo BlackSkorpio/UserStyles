@@ -1,0 +1,28 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/sitefixStyles/$1.$2 */
+/*! ==UserStyle==
+@name           Tube8
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-tube8-com.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("tube8.com") {
+/*Top menu*/
+ul#main-nav li:not(#tab-videos):not(#tab-categories):not(#tab-tags),
+/*Asides*/
+.rightColBanner,
+.gridBanner,
+/*Footer*/
+.footerBanner,
+#footer-text,
+#footer-wrapper,
+.footer-stripe-wrapper-grey {
+	display: none;
+}
+}
