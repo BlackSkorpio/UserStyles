@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name           photographylife.com
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-photographylife-com.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document domain("photographylife.com"){.content-sidebar .content,.content-sidebar-sidebar .content{width:750px!important;margin:0 auto!important;float:none!important}}
