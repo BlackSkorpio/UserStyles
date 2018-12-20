@@ -9,4 +9,4 @@
 @updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/companionStyles/companion-github-dark.user.css
 @license        MIT
 @preprocessor	default
-==/UserStyle== */@-moz-document domain("github.com"){.gh-header{background-color:var(--accent-color);border-color:var(--border-color);padding-left:15px;padding-right:15px}.gh-header-hide-if-sticky{padding-top:10px}}
+==/UserStyle== */@-moz-document domain("github.com"){.position-relative.js-header-wrapper{position:sticky!important;top:0;z-index:1}.gh-header{background-color:var(--accent-color);border-color:var(--border-color);padding-left:15px;padding-right:15px}.gh-header-hide-if-sticky{padding-top:10px}}

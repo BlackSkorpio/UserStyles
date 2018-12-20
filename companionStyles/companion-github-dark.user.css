@@ -13,6 +13,11 @@
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
+	.position-relative.js-header-wrapper {
+		position: sticky !important;
+		top: 0;
+		z-index: 1;
+	}
 	.gh-header {
 		background-color: var(--accent-color);
 		border-color: var(--border-color);
