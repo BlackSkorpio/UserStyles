@@ -1,0 +1,12 @@
+/*! ==UserStyle==
+@name           TPB Fixes
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-thepiratebay-org.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */@-moz-document domain("thepiratebay.org"){a:visited,table#searchResult a:visited{color:rgba(127,127,127,0.8)!important}#main-content{margin:0 auto!important}tr:last-child>td[colspan='9']{padding:1.5em 0!important;line-height:2em!important;font-size:1.2em!important}tr:last-child>td[colspan='9']>*:not(:first-child):not(:last-child){margin-right:.2em!important;padding:.5em .4em!important;border:1px solid!important}tr:last-child>td[colspan='9']>*:not(:first-child) a+:not(img),tr:last-child>td[colspan='9']>*:not(:last-child):not(a){border-radius:100%}#main-content+div[align='center']{margin:1.5em auto 0}#main-content+div[align='center']>*{padding:1em}#foot{display:none}}
