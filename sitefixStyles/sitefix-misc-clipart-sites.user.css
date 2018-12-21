@@ -1,0 +1,23 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/sitefixStyles/$1.$2 */
+/*! ==UserStyle==
+@name           Some clipart portals
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    cleaning up; AskVector.today, vectors.guru & clipartportal.today
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/master/minified/sitefixStyles/sitefix-misc-clipart-sites.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document domain("askvector.today"), domain("vectors.guru"), domain("clipartportal.today") {
+#my-modal,
+.modal-backdrop {
+	display: none !important;
+}
+.modal-open {
+	overflow: auto !important
+}
+}
