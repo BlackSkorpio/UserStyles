@@ -4,10 +4,12 @@
 	--white: 255, 255, 255;
 	--blue: 50, 142, 215;
 	--grey: 53, 62, 67;
+	--pink: 252, 228, 237;
+	--yellow: 255, 232, 204;
 	--footer-brown: #212121;
 	--footer-grey: #f0f1f2;
-	--pink: rgb(252, 228, 237);
-	--yellow: rgb(255, 232, 204);
+	--clr-pink: var(--pink);
+	--clr-yellow: var(--yellow);
 	--logo-blue: rgb(var(--blue));
 	--logo-grey: rgb(var(--grey));
 	--b-quote-brd: rgba(var(--blue), 0.3);
@@ -150,8 +152,8 @@ h5 div.tooltip {
 /* Styling the blockquote */
 .entry blockquote {
 	position: relative;
-	background: -webkit-gradient(linear, left top, right top, from(var(--pink)), to(var(--yellow)));
-	background: linear-gradient(to right, var(--pink), var(--yellow));
+	background: -webkit-gradient(linear, left top, right top, from(var(--clr-pink)), to(var(--clr-yellow)));
+	background: linear-gradient(to right, var(--clr-pink), var(--clr-yellow));
 	border-radius: 0.5em;
 	border: 5px solid var(--b-quote-brd);
 	padding: 0.5rem 30px;
