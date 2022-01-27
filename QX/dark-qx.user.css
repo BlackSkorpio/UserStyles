@@ -321,6 +321,9 @@
 		display: block;
 		margin: 0 auto;
 	}
+	#column_center {
+		margin-top: 0;
+	}
 	.column-center .line,
 	.column-center .divider {
 		width: calc(100% + 30px);
