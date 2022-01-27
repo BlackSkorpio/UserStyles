@@ -50,48 +50,48 @@
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
 	/* Font size*/
-		body {
-			font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
-			font-size: clamp(1rem, calc(1rem * 3vw), 2rem);
-			font-size: 100%;
-			line-height: initial;
-		}
-		.line,
-		[style*="font-size: 9px"],
-		[style*="font-size: 10px"],
-		[style*="font-size: 11px"]{
-			font-size: inherit !important;
-			line-height: inherit !important;
-		}
-		#column_left,
-		#column_right {
-			font-size: 0.9em;
-			line-height: inherit;
-		}
-		.column-center .divider span,
-		.column-left .container-header,
-		.column-right .container-header,
-		.line .header, .line .header_red,
-		.container.logged-in .container-header {
-			font-size: 1.0em;
-			line-height: inherit;
-		}
-		#qmenu a,
-		#qmenu ul {
-			font-size: 0.9em;
-			line-height: inherit;
-		}
-		#homepageinfo .infoblock,
-		.member-card-user-basic-info {
-			font-size: 0.9em;
-			line-height: initial;
-		}
-		.smalltext,
-		.blog-teasers .teaser p,
-		.member-page-action-item .action-label {
-			font-size: 0.8em;
-			line-height: inherit;
-		}
+	body {
+		font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
+		font-size: clamp(1rem, calc(1rem * 3vw), 2rem);
+		font-size: 100%;
+		line-height: initial;
+	}
+	.line,
+	[style*="font-size: 9px"],
+	[style*="font-size: 10px"],
+	[style*="font-size: 11px"]{
+		font-size: inherit !important;
+		line-height: inherit !important;
+	}
+	#column_left,
+	#column_right {
+		font-size: 0.9em;
+		line-height: inherit;
+	}
+	.column-center .divider span,
+	.column-left .container-header,
+	.column-right .container-header,
+	.line .header, .line .header_red,
+	.container.logged-in .container-header {
+		font-size: 1.0em;
+		line-height: inherit;
+	}
+	#qmenu a,
+	#qmenu ul {
+		font-size: 0.9em;
+		line-height: inherit;
+	}
+	#homepageinfo .infoblock,
+	.member-card-user-basic-info {
+		font-size: 0.9em;
+		line-height: initial;
+	}
+	.smalltext,
+	.blog-teasers .teaser p,
+	.member-page-action-item .action-label {
+		font-size: 0.8em;
+		line-height: inherit;
+	}
 }
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
