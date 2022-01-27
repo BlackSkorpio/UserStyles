@@ -1,12 +1,12 @@
 /*! ==UserStyle==
 @name           Dark QX
 @namespace		github.com/BlackSkorpio/UserStyles
-@version        1.0.0
+@version        1.0.1
 @description    A dark theme for qruiser.com
 @author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
 @homepageURL	https://github.com/BlackSkorpio/UserStyles
 @supportURL		https://github.com/BlackSkorpio/UserStyles/issues
-@updateURL		https://github.com/BlackSkorpio/UserStyles/blob/master/minified/QX/dark-qx.user.css
+@updateURL		https://github.com/BlackSkorpio/UserStyles/raw/master/QX/dark-qx.user.css
 @license        MIT
 @preprocessor	default
 @var	range	aside-l-width	"Left Column Width"				[14, 11.25, 20, 0.01, "rem"]
