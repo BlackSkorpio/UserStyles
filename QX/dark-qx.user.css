@@ -155,7 +155,7 @@
 		background: var(--header-bkgrd) !important;
 	}
 	#subnavbar, #current_page {
-		background-color: var(--clr4)
+		background-color: var(--clr4);
 	}
 	.onlyshowself > .header {
 		background: none;
@@ -166,14 +166,14 @@
 	}
 	.column-center .divider,
 	.column-center .divider span {
-		background-color: var(--header-bkgrd) !important
+		background-color: var(--header-bkgrd) !important;
 	}
 	.notification-bubble {
-		background: var(--main-background)
+		background: var(--main-background);
 	}
 	#members_positioned .gallery-member-item,
 	.gallery .insertmember .memberonlinestatus .memberlargeicon {
-		background-color: var(--aside-bkgrd)
+		background-color: var(--aside-bkgrd);
 	}
 	.container--memberbox .insertmember {
 		background-color: var(--header-bkgrd);
