@@ -443,3 +443,7 @@
 		padding: 6px 6px 8px;
 	}
 }
+
+@-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
+	/* TEMP SECTION */
+}
