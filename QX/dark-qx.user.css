@@ -50,7 +50,6 @@
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
 	/* Font size*/
-	/*if font-enable {*/
 		body {
 			font-size: clamp(0.9rem, 1vw + 1rem, 2.2rem);
 			font-size: clamp(1rem, calc(1rem * 3vw), 2rem);
@@ -93,7 +92,6 @@
 			font-size: 0.8em;
 			line-height: inherit;
 		}
-	/*}*/
 }
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
