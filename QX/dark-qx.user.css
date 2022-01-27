@@ -176,7 +176,7 @@
 		background-color: var(--aside-bkgrd)
 	}
 	.container--memberbox .insertmember {
-		background-color: var(--main-background)
+		background-color: var(--header-bkgrd);
 	}
 }
 
