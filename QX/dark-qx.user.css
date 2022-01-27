@@ -72,7 +72,8 @@
 		.column-center .divider span,
 		.column-left .container-header,
 		.column-right .container-header,
-		.line .header, .line .header_red {
+		.line .header, .line .header_red,
+		.container.logged-in .container-header {
 			font-size: 1.0em;
 			line-height: inherit;
 		}
@@ -415,10 +416,24 @@
 		width: auto;
 	}
 	/*-------*/
+	.container.logged-in .container-column .member-info-column {
+		width: -moz-fit-content;
+		width: fit-content;
+	}
+	.container.logged-in .container-column .insertmember .link a > .shortname {
+		display: none;
+	}
+	.container.logged-in .container-column .insertmember .link a > .longname {
+		display: inline;
+	}
 	.member-guest-book .link a .shortname {
 		display: none;
 	}
 	.member-guest-book .link a .longname {
 		display: inline;
+	}
+	/* Fix logged in header padding issue */
+	.container.logged-in .container-header {
+		padding: 6px 6px 8px;
 	}
 }
