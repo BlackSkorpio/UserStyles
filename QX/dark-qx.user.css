@@ -88,7 +88,8 @@
 			line-height: initial;
 		}
 		.smalltext,
-		.blog-teasers .teaser p {
+		.blog-teasers .teaser p,
+		.member-page-action-item .action-label {
 			font-size: 0.8em;
 			line-height: inherit;
 		}
