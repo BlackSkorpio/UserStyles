@@ -293,6 +293,10 @@
 		height: auto;
 		background-size: contain;
 	}
+	.member-page-other-cards img.background-image {
+		background-position-y: top;
+		border-radius: 1em;
+	}
 }
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
