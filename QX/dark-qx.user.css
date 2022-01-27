@@ -225,6 +225,9 @@
 	.member-card-user-basic-info {
 		color: var(--header-clr) !important;
 	}
+	[style="color: #63300E;"] {
+		color: var(--header-clr) !important;
+	}
 	.column-center * .link a:visited {
 		color: var(--header-clr);
 	}
