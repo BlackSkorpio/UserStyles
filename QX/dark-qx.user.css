@@ -187,6 +187,7 @@
 	.feedback, .homepage,
 	.member-page-other-cards,
 	.member-page-personal-cards,
+	.column-center .force-black a,
 	#column_left .select-style select,
 	#column_right .select-style select,
 	#column_left input[type="text"],
