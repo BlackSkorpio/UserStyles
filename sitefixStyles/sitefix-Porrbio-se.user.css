@@ -1,0 +1,130 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/sitefixStyles/$1.$2 */
+/*! ==UserStyle==
+@name           Porrbio.se - html5-chat.com
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/raw/master/sitefixStyles/sitefix-Porrbio-se.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://html5-chat.com/chat/26783/5f69f9760eb14/") {
+	:root {
+		--white-smoke: 245, 245, 245;
+		--black: 16, 16, 16;
+		--bkgrd-color-base-rgb: 15, 25, 38;
+		--box-shadow-clr: var(--white-smoke);
+		--brd-radius-base: 5px;
+		--male-clr: #3366ff;
+		--female-clr: #ff00ff;
+		--couple-clr: #ffcc00;
+		--other-clr: #00ff00;
+	}
+	#slide_block.slide_block {
+		transition: opacity 0.5s;
+	}
+	#usersContainer.leftLayout #slide_block.slide_block:not(.opened) {
+		border-left: 0;
+		border-right: 1px solid #888 !important;
+		border-radius: 0px 3px 3px 0px !important;
+	}
+	#slide_block.slide_block:not(:hover) {
+		opacity: 0.5;
+	}
+	/* Messages */
+	.message,
+	.addPrivateMessage {
+	}
+	.addPrivateMessage {
+		width: -moz-fit-content;
+		width: fit-content;
+		max-width: 60%;
+		border-top-right-radius: var(--brd-radius-base);
+		border-bottom-right-radius: var(--brd-radius-base);
+		box-shadow:
+			0.3px 0.3px 0.3px rgba(var(--box-shadow-clr), 0.02),
+			0.7px 0.7px 0.7px rgba(var(--box-shadow-clr), 0.028),
+			1.3px 1.3px 1.4px rgba(var(--box-shadow-clr), 0.035),
+			2.2px 2.2px 2.5px rgba(var(--box-shadow-clr), 0.042),
+			4.2px 4.2px 4.6px rgba(var(--box-shadow-clr), 0.05),
+			   10px 10px 11px rgba(var(--box-shadow-clr), 0.07);
+		/*box-shadow: 1px 1px 3px rgb(245, 245, 245);*/
+	}
+	div.addPrivateMessage {
+		margin: 15px 0 32px;
+	}
+	.addPrivateMessage:not(.own)::after {
+		border-top-right-radius: var(--brd-radius-base);
+	}
+	.addPrivateMessage.own::after {
+		border-bottom-right-radius: var(--brd-radius-base);
+	}
+	.addPrivateMessage b img.emojioneemoji {
+		background-color: transparent !important;
+		border: none;
+	}
+	div.message img.userItem {
+		border-radius: 50%;
+	}
+	/* Server messages */
+	.webcamRequest,
+	.privateRequest,
+	.privateClosed,
+	.serverText {
+		max-width: -moz-fit-content;
+		max-width: fit-content;
+		margin: 0 auto;
+		border: 1px solid;
+		border-radius: var(--brd-radius-base);
+	}
+	.serverText {
+		background-color: rgb(var(--bkgrd-color-base-rgb));
+		padding: 3px 2px;
+	}
+	div.webcamOpened {
+		margin: 0 auto;
+		padding-right: 26px; /* Fix icon ending up on the outside */
+	}
+	/* Left navbar */
+	.online-user-item:not(:hover) {
+		background-color: rgba(var(--bkgrd-color-base-rgb), .55)
+	}
+	.online-user-item.userItem[data-gender]:after {
+		/*display: block;*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 28px;
+		width: 28px;
+		margin: auto 1em auto 0;
+		border-radius: 50%;
+		/*padding: 5px 5px 5px 7px;*/
+		font-weight: 700;
+		color: rgba(var(--black), 1);
+	}
+	.online-user-item.userItem[data-gender="Man"]:after {
+		content: "M";
+		background-color: var(--male-clr);
+		color: rgba(var(--white-smoke), 1);
+	}
+	.online-user-item.userItem[data-gender="Kvinna"]:after {
+		content: "K";
+		background-color: var(--female-clr);
+	}
+	.online-user-item.userItem[data-gender="Par"]:after {
+		content: "P";
+		background-color: var(--couple-clr);
+	}
+	.online-user-item.userItem[data-gender="Övrig"]:after {
+		content: "Ö";
+		background-color: var(--other-clr);
+	}
+	/* Force the avatar upload visibility */
+	.menuUserItem.link-icons[data-action="avatar"]{
+		display: block !important;
+	}
+}
