@@ -173,7 +173,7 @@
 	}
 	#members_positioned .gallery-member-item,
 	.gallery .insertmember .memberonlinestatus .memberlargeicon {
-		background-color: var(--aside-bkgrd);
+		background-color: var(--aside-bkgrd)
 	}
 	.container--memberbox .insertmember {
 		background-color: var(--header-bkgrd)
