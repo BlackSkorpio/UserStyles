@@ -10,18 +10,18 @@
 @updateURL		https://github.com/BlackSkorpio/UserStyles/raw/master/QX/dark-qx.user.css
 @license        MIT
 @preprocessor	default
-@var	range	aside-l-width	"Left Column Width"						[14, 11.25, 20, 0.01, "rem"]
-@var	range	center-width	"Center column Width"					[38, 28.75, 85, 0.01, "rem"]
-@var	range	aside-r-width	"Right Column Width"					[18.75, 18.75, 25, 0.01, "rem"]
-@var	color	clr1					"Main background color"				rgba(24, 24, 24, 1)
-@var	color	clr3					"Secondary background color"	rgba(68, 66, 66, 1)
-@var	color	clr2					"Header background color"			rgba(48, 48, 48, 1)
-@var	color	clr4					"Higligt/Hoover background"		rgba(55, 55, 55, 1)
-@var	color	clr5					"Text color"									rgba(187, 187, 187, 1)
-@var	color	clr6					"Header color"								rgba(255, 255, 255, 1)
-@var	color	clr7					"Dark text color"							rgba(24, 24, 24, 1)
-@var	color	clr8					"Shadow color"								rgba(187, 187, 187, 1)
-@var	color	clr9					"Logo fill color"							rgba(187, 187, 187, 1)
+@var	range	aside-l-width	"Left Column Width"				[14, 11.25, 20, 0.01, "rem"]
+@var	range	center-width	"Center column Width"			[38, 28.75, 85, 0.01, "rem"]
+@var	range	aside-r-width	"Right Column Width"			[18.75, 18.75, 25, 0.01, "rem"]
+@var	color	clr1			"Main background color"			rgba(24, 24, 24, 1)
+@var	color	clr3			"Secondary background color"	rgba(68, 66, 66, 1)
+@var	color	clr2			"Header background color"		rgba(48, 48, 48, 1)
+@var	color	clr4			"Higligt/Hoover background"		rgba(55, 55, 55, 1)
+@var	color	clr5			"Text color"					rgba(187, 187, 187, 1)
+@var	color	clr6			"Header color"					rgba(255, 255, 255, 1)
+@var	color	clr7			"Dark text color"				rgba(24, 24, 24, 1)
+@var	color	clr8			"Shadow color"					rgba(187, 187, 187, 1)
+@var	color	clr9			"Logo fill color"				rgba(187, 187, 187, 1)
 ==/UserStyle== */
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
