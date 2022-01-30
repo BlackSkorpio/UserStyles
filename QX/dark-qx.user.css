@@ -119,7 +119,7 @@
 	#column_center {
 		background: var(--main-background);
 	}
-	.column-center .list .even,
+	.column-center .list .even > .insertmember,
 	.column-center .list.favourite-list .even .insertmember {
 		background: var(--main-background) !important;
 	}
@@ -383,14 +383,16 @@
 	.list.discussion-list .list .odd,
 	.list.discussion-list .list .even,
 	.column-center .clubscribble .list .even {
-		width: -moz-fit-content;
+		/*width: -moz-fit-content;
 		width: fit-content;
-		border-radius: 50px;
+		border-radius: 50px;*/
 		padding: 3px !important;
 	}
-	.list.discussion-list .list .odd,
-	.list.discussion-list .list .even {
+	.list.discussion-list .list .odd > .insertmember,
+	.list.discussion-list .list .even > .insertmember {
 		border: 1px solid;
+		width: -moz-fit-content;
+		width: fit-content;
 	}
 	.list.discussion-list .odd .insertmember,
 	.list.discussion-list .even .insertmember,
