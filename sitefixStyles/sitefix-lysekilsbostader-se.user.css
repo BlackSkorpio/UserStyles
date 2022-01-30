@@ -1,0 +1,84 @@
+/*minifyOnSave, checkOutputFileAlreadyExists: false, checkAlreadyMinifiedFile: false, filenamePattern: ../minified/sitefixStyles/$1.$2 */
+/*! ==UserStyle==
+@name           www.lysekilsbostader.se
+@namespace		github.com/BlackSkorpio/UserStyles
+@version        1.0.0
+@description    A cleaned up site
+@author			Bjarne Varöystrand (https://github.com/BlackSkorpio)
+@homepageURL	https://github.com/BlackSkorpio/UserStyles
+@supportURL		https://github.com/BlackSkorpio/UserStyles/issues
+@updateURL		https://raw.githubusercontent.com/BlackSkorpio/UserStyles/raw/master/sitefixStyles/sitefix-lysekilsbostader-se.user.css
+@license        MIT
+@preprocessor	default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.lysekilsbostader.se/") {
+	/* LBAB */
+	:is(a, button, input, textarea, summary) {
+		--outline-size: max(2px, 0.08em);
+		--outline-style: solid;
+		--outline-color: currentColor;
+	}
+
+	:is(a, button, input, textarea, summary):focus {
+		outline: var(--outline-size) var(--outline-style) var(--outline-color);
+		outline-offset: var(--outline-offset, var(--outline-size));
+	}
+}
+
+@-moz-document url-prefix("https://www.lysekilsbostader.se/ledigt/") {
+	/* LEDIGT */
+	:root {
+		--black: 0,0,0;
+		--paper-white: #e3ecf4;
+		--green: 0,128,0;
+		--gray: 128,128,128;
+		--no-clr: transparent;
+		--solid-brd: 1px solid;
+		--dashed-brd: 1px dashed;
+	}
+	/* Make header sticky */
+	/*body.mina-sidor form.bg,*/
+	body.ledigt_lagenhet form.bg {
+		position: relative !important;
+	}
+	div.siteHeader-container {
+		position: sticky;
+		top: 0;
+	}
+	.secondary.register-interest,
+	main#mainContent div.siteContent .templatelist.block.marked {
+		box-shadow: 0 2.8px 2.2px rgba(var(--b-s-root), 0.034),
+					0 6.7px 5.3px rgba(var(--b-s-root), 0.048),
+					0 12.5px 10px rgba(var(--b-s-root), 0.06),
+					0 22.3px 17.9px rgba(var(--b-s-root), 0.072),
+					0 41.8px 33.4px rgba(var(--b-s-root), 0.086),
+					0 100px 80px rgba(var(--b-s-root), 0.12);
+	}
+	/* Intresse anmält */
+	main#mainContent div.siteContent .templatelist.block.marked {
+		--b-s-root: var(--black);
+		border: var(--dashed-brd) rgb(var(--green));
+		background-color: var(--no-clr);
+		/*box-shadow: 1px 1px 2px gray;*/
+	}
+	.templatelist.block li:nth-of-type(odd) {
+		background-color: var(--paper-white);
+	}
+	.templatelist.block.marked h2 a {
+		text-decoration: none;
+		font-weight: 700;
+	}
+	/* Intresse anmält header */
+	.secondary.register-interest {
+		--b-s-root: var(--green);
+	}
+	.secondary.register-interest li.left {
+		color: rgb(var(--green));
+		filter: drop-shadow(1px 1px 1px rgb(var(--gray)));
+	}
+	/* Buttons in img gallery */
+	.fancybox-navigation .fancybox-button[disabled] {
+		display: none;
+	}
+}
