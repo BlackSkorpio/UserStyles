@@ -452,6 +452,17 @@
 	.container.logged-in .container-header {
 		padding: 6px 6px 8px;
 	}
+	/* nav containers */
+	#qmenu ul li > a {
+		border-left: 1px solid var(--main-background);
+		border-right:  1px solid var(--main-background);
+	}
+	#qmenu ul li:last-child > a {
+		border-bottom: 1px solid var(--main-background);
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		padding-bottom: 1em
+	}
 }
 
 @-moz-document regexp("http[s]*:\/\/[www.]*qruiser\.[a-z]{1,4}.*"),regexp("http[s]*:\/\/[beta.]*qruiser\.[a-z]{1,4}.*") {
