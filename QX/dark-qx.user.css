@@ -195,6 +195,7 @@
 	#column_right input[type="text"],
 	#column_right input[type="password"],
 	.list .insertmember .member-info-column,
+	.column-left .container--memberbox .mood,
 	.list .insertmember .member-info-column .link a,
 	.member-page-action-item .action-label {
 		color: var(--txt-clr);
