@@ -250,6 +250,9 @@
 	#column_center .member-page-other-cards .link svg path {
 		fill: var(--header-clr) !important;
 	}
+	.black-icon-color {
+		fill: var(--shadow-color);
+	}
 	.list .insertmember,
 	.gallery-member-item,
 	.member-page-card-status,
@@ -264,7 +267,13 @@
 		box-shadow: 0 2px 6px var(--shadow-color);
 	}
 	/* Invert all black PNG icons */
+	.commenticon,
+	#digs_upicon,
+	#digs_downicon,
+	#dig > a > img,
+	.movielargeicon,
 	#homepageinfo_droparrow,
+	.column-center .diaryicon,
 	.column-center #infoarrow,
 	.column-center .homeicon,
 	.column-center .block-icons .icon-lock,
