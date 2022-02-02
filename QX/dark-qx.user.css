@@ -302,7 +302,8 @@
 		height: auto;
 		background-size: contain;
 	}
-	.member-page-other-cards img.background-image {
+	/* Hero img on profile page */
+	.homepage .member-page-other-cards img.background-image {
 		background-position-y: top;
 		border-radius: 1em;
 	}
